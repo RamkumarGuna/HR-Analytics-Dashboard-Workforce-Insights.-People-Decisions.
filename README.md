@@ -27,17 +27,21 @@ Attrition by Department — Sales leads with 35% of total attrition, followed by
 Attrition by Salary Slab — 0–3 LPA employees show the highest attrition count (88), nearly double the 3–6 LPA band
 JobRole Breakdown matrix — headcount split by job level (1–4) across 8 roles, Manager is the largest role at 405 employees
 Attrition Trend by Experience — attrition peaks sharply at 0 years of experience (24 cases) before tapering off
+
 👥 Workforce Demographics
 Age Group Distribution — Active vs Attrition Count across 18–25, 26–35, 36–45, 46–55, and 55+ bands
 Largest workforce segment: 26–35 age group with 408 active employees (33% of active headcount)
 Gender Split: Male 63%, Female 37%
+
 🏢 Department-wise Employee Count
 Sales is the largest department by headcount (455 employees), followed by Operations (239) and IT (212)
 Finance (129) and Administration (135) are the smallest departments
+
 🎛️ Dynamic Filters
 Department slicer (sidebar)
 Age Group slicer (top bar: 18-25, 26-35, 36-45, 46-55, 55+)
 🛠️ Technical Highlights
+
 DAX Measures
 Custom Attrition Rate % calculation at overall and department level
 Average Age and Average Experience measures
@@ -49,15 +53,17 @@ Age group binning (18–25, 26–35, 36–45, 46–55, 55+)
 Data Modelling
 Clean single-table model with calculated columns and measures
 Optimised for slicer cross-filtering across all visuals (Department + Age Group)
+
 🔍 Key Findings
 Sales carries the highest attrition share at 35% of all exits — more than double the next closest department
 Attrition is heavily concentrated in the lowest salary slab (0–3 LPA, 88 cases), suggesting compensation is a key retention lever
 New joiners are the highest flight risk — attrition peaks at 0 years of experience (24 cases) and declines steadily afterward
 The 26–35 age group is both the largest workforce segment (408 active employees) and a major contributor to attrition (80 cases), making it the most critical retention target
 Sales is also the largest department by headcount (455 employees), so its high attrition share compounds into a large absolute talent loss
+
 🚀 Getting Started
 Clone this repository
-git clone https://github.com/ayeshasana0355/HR-Dashboard-analysis.git
+
 Open HR DASHBOARD ANALYSIS.pbix in Power BI Desktop
 When prompted, point to HR_Analytics_Dataset.xlsx as the data source
 Click Refresh to load the data
