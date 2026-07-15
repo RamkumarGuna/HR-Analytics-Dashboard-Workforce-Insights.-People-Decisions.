@@ -8,7 +8,6 @@ This dashboard analyses employee attrition across departments, job roles, salary
 
 Dataset: HR Analytics Dataset (HR_Analytics_Dataset.xlsx)
 
-![Uploading image.png…]()
 
 📊 Key Metrics at a Glance
 Metric	Value
